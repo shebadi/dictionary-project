@@ -12,7 +12,24 @@ function App() {
         <main>
           <Dictionary defaultKeyword="sunset" />
         </main>
-        <footer className="App-footer">Coded by Shabnam Ebadi</footer>
+        <footer className="App-footer">
+          This project was coded by Shabnam Ebadi and is{" "}
+          <a
+            href="https://github.com/shebadi/dictionary-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub{" "}
+          </a>
+          and hosted in{" "}
+          <a
+            href="https://amazing-mousse-e9443c.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
